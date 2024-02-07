@@ -1,0 +1,102 @@
+body{
+    background-color:#F3F5FC;
+    margin: 0;
+    display: flex;
+   
+}
+article {
+    margin-top: 0;
+}
+.a {
+    margin-top: 30px;
+}
+.input-text {
+
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.input-digite {
+    width: 680px;
+    height: 48px;
+    border: none;
+    background-color:#F3F5FC;
+    outline: none;
+}
+.input-text ::placeholder {
+    font-size: 32px;
+    color: #0A3871;
+}
+.message-container{
+    margin: 40px;
+    margin-left: 270px;
+    margin-right: 30px;
+    position: relative;
+}
+.div-message {
+    background-color: #fff;
+    width: 400px;
+    height: 700px;
+    border-radius: 32px;
+    
+}
+.svg {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.div-message svg {
+    width: 304px;
+    height: 336px;
+    margin-top: 30%;
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.button-blue, .button-gray {
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+.button-blue {
+    color: #fff;
+    background-color:#0A3871;
+}
+.button-gray {
+    color: #0A3871;
+    background-color: #D8DFE8;
+}
+.span {
+    display: flex;
+    margin-left: 73px;
+    margin-bottom: 20px;
+    margin-top: 400px;
+}
+.message {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.button-copy {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-weight: bold;
+    font-size: 15px;
+    color: grey;
+    position: fixed;
+    bottom:100px;
+    right: 180px;
+  
+}
+#resultado-container {
+    margin-top: 20px;
+}
